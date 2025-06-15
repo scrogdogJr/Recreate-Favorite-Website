@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-logo {
+    height: 25px !important;
+}
+
+.hero_text {
+    position: absolute;
+    top: 20%;
+
+}
+
+.picture-text {
+    position: absolute;
+    top: 10%;
+}
+
+.products-btn-container{
+    position: absolute;
+    top: 24%;
+}
+
+.custom-size {
+    font-size: 1.6rem !important;
+}
+

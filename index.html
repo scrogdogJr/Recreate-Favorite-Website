@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJI</title>
+
+    <link href="index.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="images/black_logo.png" rel="icon">
+
+    <script src="functions.js"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <!-- fixed-top = makes navbar sticky -->
+        <div class="container-fluid"> <!-- Ensures navbar takes up whole width-->
+            <a class="navbar-brand" href="#index.html"><img src="images/black_logo.png" class="img-fluid nav-logo"></a> <!-- Logo of the company-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <!-- Adds a hamburger menu...#navbarNav = the id of the tag you are expanding/collapsing-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav"> <!-- Ensures the navbar collapses on small screens -->
+                <ul class="navbar-nav"> <!-- Makes it part of the nav bar-->
+                    <li class="nav-item ms-4"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item ms-4"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item ms-4"><a class="nav-link" href="form.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="row justify-content-center mb-3">
+        
+        <img src="images/Hero_img.jpg" alt="Drone Header" class="w-100 col-12">
+
+        <img src="images/white_logo.png" alt="DJI_Logo" class="hero_text col-2 position-absolute">
+        
+    </div>
+
+    <div class="row mb-3 w-100">
+        <div class="d-flex justify-content-center w-100">
+            <div class="flex-fill mx-3 position-relative">
+                <img src="images/Flip_drone.jpg" alt="flip_drone" class="img-fluid w-100">
+                <div class="d-flex container-fluid justify-content-center picture-text">
+                    <h1 class="fw-medium display-4">DJI FLIP</h1>
+                </div>
+                <div class="d-flex container-fluid justify-content-center products-btn-container">
+                    <a href="#product.html" class="btn btn-dark btn-lg rounded-pill custom-size">Products</a>
+                </div>
+            </div>
+
+            <div class="flex-fill mx-3 position-relative">
+                <img src="images/camera.jpg" alt="flip_drone" class="img-fluid w-100">
+                <div class="d-flex container-fluid justify-content-center picture-text">
+                    <h1 class="fw-medium display-4">OSMO ACTION 5 PRO</h1>
+                </div>
+                <div class="d-flex container-fluid justify-content-center products-btn-container">
+                    <a href="#form.html" class="btn btn-dark btn-lg rounded-pill custom-size">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3 w-100">
+        <div class="d-flex justify-content-center w-100">
+            <div class="flex-fill mx-3 position-relative">
+                <img src="images/phone_holder.jpg" alt="flip_drone" class="img-fluid w-100">
+                <div class="d-flex container-fluid justify-content-center picture-text">
+                    <h1 class="fw-medium display-4">OSMO MOBILE 7 SERIES</h1>
+                </div>
+                <div class="d-flex container-fluid justify-content-center products-btn-container">
+                    <a href="#product.html" class="btn btn-dark btn-lg rounded-pill custom-size">Products</a>
+                </div>
+            </div>
+
+            <div class="flex-fill mx-3 position-relative">
+                <img src="images/Camera_drone.jpg" alt="flip_drone" class="img-fluid w-100">
+                <div class="d-flex container-fluid justify-content-center picture-text">
+                    <h1 class="fw-medium display-4">CAMERA DRONES</h1>
+                </div>
+                <div class="d-flex container-fluid justify-content-center products-btn-container">
+                    <a href="#form.html" class="btn btn-dark btn-lg rounded-pill custom-size">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

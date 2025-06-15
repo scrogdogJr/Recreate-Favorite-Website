@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DJI</title>
+
+    <link href="form.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="images/black_logo.png" rel="icon">
+</head>
+<body class="bg-black">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <!-- fixed-top = makes navbar sticky -->
+        <div class="container-fluid"> <!-- Ensures navbar takes up whole width-->
+            <a class="navbar-brand" href="#index.html"><img src="images/black_logo.png" class="img-fluid nav-logo"></a> <!-- Logo of the company-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <!-- Adds a hamburger menu...#navbarNav = the id of the tag you are expanding/collapsing-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav"> <!-- Ensures the navbar collapses on small screens -->
+                <ul class="navbar-nav"> <!-- Makes it part of the nav bar-->
+                    <li class="nav-item ms-4"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item ms-4"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item ms-4"><a class="nav-link" href="form.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 form-position">
+        <h2 class="text-center text-white display-3 my-5 fw-medium">Contact Us</h2>
+
+        <form class="p-4 bg-black border rounded-5">
+
+            <div class="mb-5">
+                <label for="name" class="form-label text-white">First Name</label> <!-- form-label = styles the label for clarity-->
+                <input type="name" class="form-control w-50" id="name" placeholder="Enter your first name"> <!-- is-invalid = validates input and highlits the input field red to indicate an error-->
+
+                <div class="invalid-feedback"> <!-- Displays an error message when input invalid-->
+                    First name is required.
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <label for="name" class="form-label text-white">Last Name</label> <!-- form-label = styles the label for clarity-->
+                <input type="name" class="form-control w-50" id="name" placeholder="Enter your last name"> <!-- is-invalid = validates input and highlits the input field red to indicate an error-->
+
+                <div class="invalid-feedback"> <!-- Displays an error message when input invalid-->
+                    Last name is required.
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <label for="email" class="form-label text-white">Email</label> <!-- form-label = styles the label for clarity-->
+                <input type="email" class="form-control w-50" id="email" placeholder="Enter your email"> <!-- is-invalid = validates input and highlits the input field red to indicate an error-->
+
+                <div class="invalid-feedback"> <!-- Displays an error message when input invalid-->
+                    Email is required.
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <label for="product_name" class="form-label text-white">Product Name</label> <!-- form-label = styles the label for clarity-->
+                <input type="name" class="form-control w-50" id="product_name" placeholder="Enter product you are inquiring about"> <!-- is-invalid = validates input and highlits the input field red to indicate an error-->
+
+                <div class="invalid-feedback"> <!-- Displays an error message when input invalid-->
+                    Product Name is required.
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <label for="message" class="form-label text-white">Message</label> <!-- form-label = styles the label for clarity-->
+                <textarea name="message" class="form-control w-50" id="message" rows="5" placeholder="How can we help you?"></textarea> <!-- is-invalid = validates input and highlits the input field red to indicate an error-->
+
+
+                <div class="invalid-feedback"> <!-- Displays an error message when input invalid-->
+                    Some message is required.
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-lg btn-light text-black rounded-pill">Submit</button>
+            </div>
+            
+
+        </form>
+
+        <div class="py-5"></div>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
